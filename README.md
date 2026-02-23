@@ -1,21 +1,25 @@
 # Chez Nous 89270
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/9143624e-c4cb-42f7-a932-c9804d9eb5c8/deploy-status)](https://app.netlify.com/sites/cheznous89270/deploys)
+Site web du restaurant **Chez Nous**, réalisé avec le framework Astro et déployé automatiquement sur Netlify.
 
+**Découvrez le site :** [cheznous89270.fr](https://cheznous89270.fr)
 
-## 🚀 Déploiement
+***
 
-Ce dépôt contient le code source du site [cheznous89270.fr](https://cheznous89270.fr), réalisé avec le framework [Astro](https://astro.build/) déployé automatiquement sur [Netlify](https://www.netlify.com/). Le contenu éditorial est administrable via [PageCMS](https://pagescms.org/).
+## Fonctionnalités
 
-Le site permet notamment :
+- Design responsive adapté à tous les appareils
+- Contenu généré statiquement pour des performances optimales
+- Consultation des menus au format PDF
+- Galeries photo pour mettre en valeur le restaurant
+- Intégration automatique quotidienne de l'**ardoise du jour** publiée sur Instagram
+- Affichage d'une carte interactive
+- Optimisation des images (WebP, lazy-loading)
+- Administration du contenu éditorial via [PageCMS](https://pagescms.org/)
 
-  - la consultation des menus au format PDF
-  - la mise en valeur du restaurant à travers des galeries photo
-  - l’intégration automatique chaque jour de l’**ardoise du jour** publiée sur Instagram
-  - l’affichage d’une carte interactive
+***
 
-
-## 📁 Structure du projet
+## Structure du projet
 
 ```text
 /
@@ -32,36 +36,61 @@ Le site permet notamment :
     └── types
 ```
 
-## ⚙️ Installation
+***
 
-Instructions pour cloner le projet et le faire tourner en local :
+## Déploiement planifié
+
+Un déploiement est automatiquement déclenché chaque jour à **12h (heure de Paris)** via une GitHub Action, afin de récupérer et afficher l'ardoise du jour publiée sur Instagram.
+
+***
+
+## Pour commencer
+
+1. Forkez ce dépôt, ou utilisez-le comme base pour un nouveau projet.
+2. Exécutez les commandes suivantes dans votre terminal :
 
 ```bash
+# Cloner le dépôt
 git clone https://github.com/cheznous89270/cheznous.git
-cd nom-du-projet
+
+# Naviguer dans le répertoire du projet
+cd cheznous
+
+# Installer les dépendances
 npm install
+
+# Démarrer le serveur de développement
 npm run dev
 ```
 
-## ⏰ Déploiement planifié
+***
 
-Un déploiement est automatiquement déclenché chaque jour à 12h (heure de Paris) via une GitHub Action.
+## Licence
 
-## ✅ Fonctionnalités
+Ce projet est distribué sous la **licence MIT**. Le code source est librement réutilisable dans les conditions de cette licence.
 
-  - Design responsive
-  - Contenu généré statiquement
-  - Intégration des publications Instagram avec un hashtag spécifique
-  - Optimisation des images (WebP, lazy-loading…)
+> ⚠️ Les contenus liés à l'établissement (textes, images, horaires, ardoise du jour, menus, etc.) restent la propriété exclusive du restaurant **Chez Nous**. Leur utilisation ou reproduction est interdite sans autorisation préalable.
 
-## 📄 Licence
+***
 
-Ce projet est distribué sous la licence MIT.
+## Crédits
 
-  Le code source est librement réutilisable dans les conditions de la licence MIT.
-  ⚠️ Les contenus liés à l’établissement (textes, images, horaires, ardoise du jour, menus, etc.) restent la propriété exclusive du restaurant Chez Nous.
-  Leur utilisation ou reproduction est interdite sans autorisation préalable.
+### Framework
 
-## 👀 Dévelloppeur Web
+- **Astro** — [astro.build](https://astro.build/)
 
-  Réalisé par [hostoftheshell](https://github.com/hostoftheshell)
+### Hébergement & déploiement
+
+- **Netlify** — [netlify.com](https://www.netlify.com/)
+
+### CMS
+
+- **PageCMS** — [pagescms.org](https://pagescms.org/)
+
+***
+
+**Développeur web :** [hostoftheshell](https://github.com/hostoftheshell)
+
+**Dernière mise à jour :** février 2026
+
+***
