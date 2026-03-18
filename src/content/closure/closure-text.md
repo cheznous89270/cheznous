@@ -4,7 +4,7 @@ closure:
   title: Bienvenue Chez Nous!!
   description: >
     
-    Bonjour , le restaurant est fermé du 23 décembre au lundi 5 janvier inclus.
-    bonnes fêtes de fin d'année, à bientôt.
+    Bonjour , le restaurant est fermé du 23 Mars au lundi 30 Mars inclus, à
+    bientôt.
   tag: Bon appétit !
 ---
